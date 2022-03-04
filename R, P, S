@@ -1,0 +1,44 @@
+const getUserChoice = function (userInput) {
+  return userInput = userInput.toLowerCase('Rock', 'Paper', 'Scissors');
+};
+
+
+const getComputerChoice = Math.floor(Math.random() * 2);
+if (0 === 'rock' && 1 === 'paper' && 2 === 'scissors') {
+  
+}
+
+const determineWinner = function (getUserChoice, computerChoice) {
+
+};
+
+if (determineWinner (getUserChoice === getComputerChoice)) {
+  console.log('The game is a tie.');
+}
+
+if (determineWinner (getUserChoice === 'rock' && getComputerChoice === 'paper')) {
+  console.log('The computer wins.');
+} else if (determineWinner (getUserChoice === 'paper' && getComputerChoice === 'rock')) {
+  console.log('The user wins.');
+}
+
+if (determineWinner (getUserChoice === 'paper' && getComputerChoice === 'scissors' )) {
+  console.log('The computer wins.');
+} else if (determineWinner (getUserChoice === 'scissors' && getComputerChoice === 'paper')) {
+  console.log('The user wins.')
+}
+
+if (determineWinner (getUserChoice === 'scissors' && getComputerChoice === 'rock')) {
+  console.log('The computer wins.');
+} else if (determineWinner (getUserChoice === 'rock' && getComputerChoice === 'scissors')) {
+  console.log('The user wins.');
+}
+
+const playGame = (determineWinner(getUserChoice, getComputerChoice));
+console.log(`${getUserChoice} or ${getComputerChoice} wins.!`);
+
+playGame
+
+if (determineWinner (getUserChoice || getComputerChoice === bomb)) {
+  console.log('They win!');
+}
